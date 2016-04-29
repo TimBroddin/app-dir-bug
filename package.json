@@ -1,0 +1,58 @@
+{
+  "name": "app-dir-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "jquery": "^2.2.3",
+    "meteor-node-stubs": "^0.2.3",
+    "moment": "^2.12.0",
+    "normalize.css": "^4.1.1",
+    "react": "^15.0.1",
+    "react-addons-css-transition-group": "^15.0.1",
+    "react-addons-pure-render-mixin": "^15.0.1",
+    "react-addons-transition-group": "^15.0.1",
+    "react-dom": "^15.0.1",
+    "react-mounter": "^1.2.0",
+    "react-toolbox": "^0.16.2",
+    "twit": "^2.2.3",
+    "underscore": "^1.8.3"
+  },
+  "scripts": {
+    "run": "meteor --port 3000"
+  },
+  "cssModules": {
+    "extensions": [
+      "scss"
+    ],
+    "specificArchitecture": false,
+    "enableSassCompilation": true,
+    "globalVariables": [
+      "node_modules/react-toolbox/lib/_colors.scss"
+    ],
+    "outputJsFilePath": {
+      "node_modules/react-toolbox/.*": "{dirname}/{basename}.js"
+    },
+    "explicitIncludes": [
+      "node_modules/react-toolbox"
+    ]
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "postcss-modules-extract-imports": "1.0.0",
+    "postcss-modules-local-by-default": "1.0.0",
+    "postcss-modules-scope": "1.0.0",
+    "postcss-modules-values": "1.1.1",
+    "postcss-nested": "1.0.0",
+    "postcss-simple-vars": "1.1.0",
+    "autoprefixer": "^6.3.6",
+    "cssnano": "^3.5.2",
+    "eslint": "^2.8.0",
+    "eslint-config-airbnb": "^8.0.0",
+    "eslint-plugin-import": "^1.6.0",
+    "eslint-plugin-jsx-a11y": "^1.0.3",
+    "eslint-plugin-react": "^5.0.1",
+    "postcss-cssnext": "^2.5.2"
+  }
+}
